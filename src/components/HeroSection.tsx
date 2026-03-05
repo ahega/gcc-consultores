@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { CalendarDays, FileText, ChevronDown, CheckCircle, BarChart3, TrendingUp, PieChart } from "lucide-react";
-import heroDashboard from "@/assets/hero-dashboard.png";
+import heroConsulting from "@/assets/hero-consulting.jpg";
 
 const HeroSection = () => {
   const scrollTo = (id: string) => {
@@ -59,8 +59,8 @@ const HeroSection = () => {
             <div className="absolute -inset-4 bg-electric/10 rounded-2xl blur-2xl" />
             <div className="relative bg-navy-mid rounded-2xl border border-navy-light/30 p-6 shadow-2xl">
               <img
-                src={heroDashboard}
-                alt="Panel de gestión financiera corporativa - GCC Consultores"
+                src={heroConsulting}
+                alt="Equipo profesional de consultoría contable y financiera - GCC Consultores Colombia"
                 className="rounded-lg w-80 h-80 object-cover"
               />
               <div className="absolute -bottom-4 -left-4 bg-navy-light/90 backdrop-blur rounded-lg px-4 py-2 flex items-center gap-2 border border-navy-light/50">
