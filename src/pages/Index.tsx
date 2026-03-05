@@ -31,6 +31,7 @@ const Index = () => {
       </main>
       <Footer />
       <FloatingCTA />
+      <WhatsAppButton />
     </>
   );
 };

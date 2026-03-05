@@ -31,9 +31,14 @@ const ServicesSection = () => {
               <s.icon className="size-8 text-electric" />
               <h3 className="font-sora font-semibold text-primary-foreground">{s.title}</h3>
               <p className="text-sm text-steel/80 leading-relaxed">{s.desc}</p>
-              <button className="text-electric text-sm font-medium flex items-center gap-1 group-hover:gap-2 transition-all">
+              <a
+                href={`https://wa.me/573175507313?text=Hola%2C%20me%20interesa%20el%20servicio%20de%20${encodeURIComponent(s.title)}.%20%C2%BFPodr%C3%ADan%20darme%20m%C3%A1s%20informaci%C3%B3n%3F`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-electric text-sm font-medium flex items-center gap-1 group-hover:gap-2 transition-all"
+              >
                 Saber más <ArrowRight className="size-3.5" />
-              </button>
+              </a>
             </div>
           ))}
         </div>
