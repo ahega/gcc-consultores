@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { CalendarDays, FileText, ChevronDown, CheckCircle, BarChart3, TrendingUp, PieChart } from "lucide-react";
-import heroDashboard from "@/assets/hero-dashboard.png";
+import heroConsulting from "@/assets/hero-consulting.jpg";
 
 const HeroSection = () => {
   const scrollTo = (id: string) => {
